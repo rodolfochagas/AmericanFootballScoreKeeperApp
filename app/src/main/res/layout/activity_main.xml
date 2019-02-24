@@ -23,6 +23,7 @@
                 android:text="Team A"/>
 
             <TextView
+                android:id="@+id/team_a_score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"/>
@@ -30,27 +31,32 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Touchdown"/>
+                android:text="Touchdown"
+                android:onClick="addSixForTeamA"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Field Goal"/>
+                android:text="Field Goal"
+                android:onClick="addThreeForTeamA"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Two-point Conversion"/>
+                android:text="Two-point Conversion"
+                android:onClick="addTwoForTeamA"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Safety"/>
+                android:text="Safety"
+                android:onClick="addTwoForTeamA"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Extra Point"/>
+                android:text="Extra Point"
+                android:onClick="addOneForTeamA"/>
 
         </LinearLayout>
 
@@ -67,9 +73,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Team A"/>
+                android:text="Team B"/>
 
             <TextView
+                android:id="@+id/team_b_score"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0"/>
