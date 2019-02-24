@@ -95,5 +95,14 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreForTeamB);
     }
 
+    /**
+     * Sets scores to zero for Team A and B
+     */
+    public void setToZero (View v) {
+        scoreForTeamA = 0;
+        scoreForTeamB = 0;
+        displayForTeamA(scoreForTeamA);
+        displayForTeamB(scoreForTeamB);
+    }
 
 }
