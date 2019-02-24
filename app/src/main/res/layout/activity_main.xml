@@ -84,26 +84,31 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Touchdown"/>
+                android:text="Touchdown"
+                android:onClick="addSixForTeamB"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="addThreeForTeamB"
                 android:text="Field Goal"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="addTwoForTeamB"
                 android:text="Two-point Conversion"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="addTwoForTeamB"
                 android:text="Safety"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="addOneForTeamB"
                 android:text="Extra Point"/>
 
         </LinearLayout>
